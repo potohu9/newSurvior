@@ -1,0 +1,15 @@
+
+MainCamera
+rotation x = 51
+postion y 4
+
+Canvas
+pos y= 2.7
+rotation x = 51
+width 1095
+height 616
+
+scale x = 0.002962354
+      y = 0.002962354
+      z = 0.002962354
+
