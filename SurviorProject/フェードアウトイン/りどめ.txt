@@ -1,10 +1,12 @@
 
 MainCamera
 rotation x = 51
-postion y 4
+postion y 6.5
+	z -5
 
 Canvas
-pos y= 2.7
+pos y= 5.2
+    z=-4
 rotation x = 51
 width 1095
 height 616
