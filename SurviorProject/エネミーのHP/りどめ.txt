@@ -1,0 +1,5 @@
+EnemyHPCreateScript
+	Enemyに付ける
+
+enemyHPScript
+	Resourcesの中のプレハブに関連ついている（はず
