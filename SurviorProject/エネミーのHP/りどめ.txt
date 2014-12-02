@@ -3,3 +3,7 @@ EnemyHPCreateScript
 
 enemyHPScript
 	Resourcesの中のプレハブに関連ついている（はず
+
+
+enemyCanvasを作る
+オーバーレイからカメラにする　メインカメラと関連
