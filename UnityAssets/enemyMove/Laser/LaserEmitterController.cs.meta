@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: e6bb9ab1356b7964c8ad60c82c2683b3
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - attackPrefab: {fileID: 100002, guid: 824441c7d4cf29344b7adfd088f37288, type: 2}
+  - signPrefab: {fileID: 100000, guid: 01b6beabd23f63b419de4e2857b96c56, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
