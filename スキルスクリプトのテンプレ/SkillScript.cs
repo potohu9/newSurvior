@@ -3,10 +3,12 @@ using System.Collections;
 
 public class SkillScript : MonoBehaviour {
 	
-	public string explanationText;				//説明文
-	public GameObject invocationEffectPrefab;	//発動時エフェクト
-	public GameObject runtimeEffectPrefab;		//発動中追従エフェクト
-	public Sprite skillIconSprite;				//スキルアイコン用スプライト
+	public string explanationText;			//説明文
+	public string invocationEffectPrefabPath;	//発動時エフェクトのパス
+	private GameObject invocationEffectPrefab;	//発動時エフェクト
+	public string runtimeEffectPrefabPath;		//発動中追従エフェクトパス
+	private GameObject runtimeEffectPrefab;		//発動中追従エフェクト
+	public Sprite skillIconSprite;			//スキルアイコン用スプライト
 	//public Sprite skillSelectIconSprite;		//スキル選択シーン用スプライト
 	
 	void Start () {
