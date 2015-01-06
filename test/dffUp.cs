@@ -4,13 +4,13 @@ using System.Collections;
 public class dffUp : SkillScript {
 
  void Start () {
-  explanationText = "–hŒä—Í‹­‚­‚È‚é‚æ";
+  explanationText = "é˜²å¾¡åŠ›å¼·ããªã‚‹ã‚ˆ";
   invocationEffectPrefabPath = "res/prefab/dffeff";
   runtimeEffectPrefabPath = "res/prefab/dffeff2";
   skillIconSpritePath = "";
  }
  
- //ƒXƒLƒ‹Œø‰Ê‹Lq—“
+ //ã‚¹ã‚­ãƒ«åŠ¹æœè¨˜è¿°æ¬„
  void skillEffect(GameObject targetObject){
   
  }

@@ -4,12 +4,12 @@ using System.Collections;
 public class attUp : SkillScript {
 
  void Start () {
-  explanationText = "UŒ‚—Í‹­‚­‚È‚é‚æ";
+  explanationText = "æ”»æ’ƒåŠ›å¼·ããªã‚‹ã‚ˆ";
   invocationEffectPrefabPath = "res/prefab/atteff1";
   runtimeEffectPrefabPath = "res/prefab/eff2";
  }
  
- //ƒXƒLƒ‹Œø‰Ê‹Lq—“
+ //ã‚¹ã‚­ãƒ«åŠ¹æœè¨˜è¿°æ¬„
  void skillEffect(GameObject targetObject){
   
  }
