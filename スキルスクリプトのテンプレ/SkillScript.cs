@@ -8,7 +8,8 @@ public class SkillScript : MonoBehaviour {
 	private GameObject invocationEffectPrefab;	//発動時エフェクト
 	public string runtimeEffectPrefabPath;		//発動中追従エフェクトパス
 	private GameObject runtimeEffectPrefab;		//発動中追従エフェクト
-	public Sprite skillIconSprite;			//スキルアイコン用スプライト
+	public string skillIconSpritePath;			//スキルアイコン用スプライトパス
+	private Sprite skillIconSprite;				//スキルアイコン用スプライト
 	//public Sprite skillSelectIconSprite;		//スキル選択シーン用スプライト
 	
 	void Start () {
