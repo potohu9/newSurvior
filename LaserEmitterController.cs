@@ -53,14 +53,23 @@ public class LaserEmitterController : MonoBehaviour {
 
 	public void createSign(Vector3 initial, Vector3 target, float width) {
 		// stgObjと衝突するか判定
-		if (create (stgObj, initial, target, width) == false) {
-			// stgObjとの衝突なし
-			// wallとの判定
+		if(stgObj != null) {
+			if (create (stgObj, initial, target, width) == false) {
+				// stgObjとの衝突なし
+				// wallとの判定
+				create (wall, initial, target, width);
+			}
+		}
+		else {
 			create (wall, initial, target, width);
 		}
 	}
 
 	private bool create(GameObject[] obj, Vector3 initial, Vector3 target,float width) {
+		if (obj == null) {
+			return false;
+		}
+
 		RaycastHit hit;
 
 		Vector3 nor = new Vector3(target.x - initial.x,
