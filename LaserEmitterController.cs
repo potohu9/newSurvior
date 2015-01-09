@@ -72,7 +72,7 @@ public class LaserEmitterController : MonoBehaviour {
 		int length = obj.Length;
 
 		for(int i = 0; i < length; i++) {
-			Vector3 targetPos = wall[i].transform.position;
+			Vector3 targetPos = obj[i].transform.position;
 			
 			if(obj[i].collider.Raycast (ray, out hit, 500.0f)) {
 				Vector3 pos = new Vector3((initial.x + hit.point.x) * 0.5f,
