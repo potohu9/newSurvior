@@ -1,0 +1,11 @@
+攻撃力UP
+duration.ToString() + "秒間攻撃力が上がる。" + "\n" +
+"クールタイム:" + coolTime.ToString()
+
+防御力UP
+duration.ToString() + "秒間防御力が上がる。" + "\n" +
+"クールタイム:" + coolTime.ToString()
+
+スピードUP
+duration.ToString() + "秒間移動速度が上がる。" + "\n" +
+"クールタイム:" + coolTime.ToString()
